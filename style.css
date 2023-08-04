@@ -9,7 +9,9 @@ a {
 }
 
 .header {
-    background-color: #6f5df8;
+    /* background-color: #002A94; */
+    /* background-color: rgb(83,97,219, 75%); */
+    background-color: #8886ff;
     height: 100px;
     display: flex;
     flex-direction: row;
@@ -142,4 +144,67 @@ a {
     text-align: right;
     font-size: 2.5rem;
     padding-top: 40px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 70px;
+    height: 130px;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-up-left {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.sign-up-title {
+    flex: 1;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.sign-up-desc {
+    flex: 1;
+    font-size: 40px;
+}
+
+.sign-up-right {
+    display: flex;
+}
+
+.sign-up-button {
+    cursor: pointer;
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: 700;
+    border: rgb(200, 200, 200) 3px solid;
+    border-radius: 30px;
+    padding: 20px;
+    flex: 1;
+    align-self: center;
+    margin-left: 500px;
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+button {
+    transition: box-shadow 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 0.1rem 0.4rem rgb(0, 0, 0, 40%);
 }
