@@ -1,3 +1,3 @@
 # landing_page
 
-This is my CSS & HTML Landing Project for The Odin Project.
+This is my CSS & HTML Landing Page for The Odin Project.
